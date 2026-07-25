@@ -48,6 +48,8 @@ group :jekyll_plugins do
   gem "jekyll-compose"
 end
 
-gem 'wdm' if Gem.win_platform?
-gem "tzinfo-data" if Gem.win_platform?
+# Windows-only gems, declared with `platforms:` (not `if Gem.win_platform?`)
+# so the dependency set is identical on the Linux CI runner.
+gem "wdm", platforms: [:windows]
+gem "tzinfo-data", platforms: [:windows]
 

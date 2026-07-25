@@ -314,6 +314,9 @@ collections:
 exclude:
   - README.md
   - LOCAL-SETUP.md
+  # Repo license (MIT, added by GitHub) — excluded because it would collide
+  # with the theme's LICENSE.md page at /LICENSE/:
+  - LICENSE
   - .jekyll-cache
   - .sass-cache
   - .ruby-lsp
