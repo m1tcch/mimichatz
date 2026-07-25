@@ -21,20 +21,19 @@ title:                 mimichatz
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  Field notes on threat research, detection engineering,
-  offensive tooling and side projects.
+  Field notes on threat research, tools, detection engineering, and whatever else I feel like writing about.
 
 # A shorter description for the sidebar.
-tagline:               threat research · tooling · projects
+tagline:               threat research · projects
 
 # A list of keywords for your blog
-keywords:              [threat research, security, tooling, malware analysis, detection engineering]
+keywords:              [threat research, tooling, detection engineering]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
 # Drop a square image in assets/img/ and uncomment:
-# logo:                  /assets/img/logo.png
+logo:                  /assets/img/logo.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -50,27 +49,15 @@ menu:
     url:               /posts/
   - title:             Threat Research
     url:               /threat-research/
-  - title:             Tooling
+  - title:             Interesting Tools
     url:               /tooling/
   - title:             Projects
     url:               /projects/
   - title:             About
     url:               /about/
-  # Theme docs + example content — remove these two once you've settled in:
-  - title:             Theme Docs
-    url:               /docs/
-  - title:             Theme Example
-    url:               /example/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2026 mimichatz. All rights reserved.

@@ -6,11 +6,8 @@ author1:
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    Field notes on threat research, detection engineering, offensive tooling
-    and side projects.
-
-    Open `_data/authors.yml` to edit this text.
+  about:             
+    Just a place to put a load of the technical yap that comes out of me ~ Mike V
 
   # This photo will be used in the about section.
   # Drop a square image in assets/img/ and uncomment:
@@ -21,9 +18,9 @@ author1:
   # Comment/uncomment to show/hide; rearrange to change order.
   # You can also provide an absolute URL (starting with https://) instead of usernames.
   social:
-    github:          <username>
+    github:          MikeVriesema
     rss:             https://mimichatz.com/feed.xml
     # email:           <mail@domain.tld>
     # mastodon:        https://<url>
-    # linkedin:        <firstname-lastname-string>
+    linkedin:        https://www.linkedin.com/in/mike-vri/
     # x:               <username>
