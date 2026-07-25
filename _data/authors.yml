@@ -1,0 +1,29 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+author1:
+  name:              mimichatz
+  email:             vriesema73@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    Field notes on threat research, detection engineering, offensive tooling
+    and side projects.
+
+    Open `_data/authors.yml` to edit this text.
+
+  # This photo will be used in the about section.
+  # Drop a square image in assets/img/ and uncomment:
+  # picture:
+  #   path:            /assets/img/logo.png
+
+  # Social media icons in sidebar
+  # Comment/uncomment to show/hide; rearrange to change order.
+  # You can also provide an absolute URL (starting with https://) instead of usernames.
+  social:
+    github:          <username>
+    rss:             https://mimichatz.com/feed.xml
+    # email:           <mail@domain.tld>
+    # mastodon:        https://<url>
+    # linkedin:        <firstname-lastname-string>
+    # x:               <username>
