@@ -15,6 +15,12 @@ baseurl:               ''
 # You may also provide a location, e.g.: en-us, de_AT.
 lang:                  en
 
+# Timezone that post dates are interpreted in. MUST be set: CI runners build in
+# UTC, so without this a post dated today is treated as up to 10 hours in the
+# future and `future: false` (Jekyll's default) silently drops it from the build.
+# The build still succeeds — the post just never appears.
+timezone:              Australia/Brisbane
+
 # The title of your blog. Used in the sidebar and the browser tab.
 title:                 mimichatz
 
