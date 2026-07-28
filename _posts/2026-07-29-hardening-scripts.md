@@ -30,6 +30,8 @@ So I felt this was a reassuring project to work on to give me peace of mind that
 Also, just because these works for me, doesn't mean it will for you. I honestly do not care if you use my scripts or not.
 [My hardening scripts](https://github.com/m1tcch/LinuxHardeningScripts) ,(subjectively), the best hardening scripts ever created lol.
 
+**Still editing this a little but the post is mostly done**
+
 | Script | What it is for |
 |---|---|
 | `harden-server.sh` | Full baseline for a VM or bare metal Debian/Ubuntu host |
