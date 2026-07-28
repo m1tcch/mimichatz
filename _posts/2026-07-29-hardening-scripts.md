@@ -205,7 +205,10 @@ actually run on a schedule.
 
 It is read only by default, and it reads effective state rather than config
 files. SSH policy comes from `sshd -T` output, not from grepping
-`sshd_config`, because a drop-in you forgot about can override anything.
+`sshd_config`, because a drop-in you forgot about can override anything. 
+This actually happened to me where my VPS provider had their own drop in that overrided a lot of my good SSHD work.
+[Binary Lane SSHD Malarkey](https://support.binarylane.com.au/support/solutions/articles/11000135607-why-your-ssh-hardening-changes-aren-t-working-on-binarylane) I don't blame the VPS provider at all for this. 
+But it's worth checking what sort of lower number confs might be taking priority over any changes you've got. The audit script will surface if anything isn't sticking.
 
 ![Audit output on the hardened container](/assets/img/blog/hardening/image13.png)
 
